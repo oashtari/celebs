@@ -16,59 +16,136 @@ $(document).ready(function() {
       } else if ( ageInput >=18 && hairInput === "brown" ) {
           if (interestsInput === 'charity') {
             if (genreInput === 'comedy') {
-
+              $("#results").addClass(".aziz");
+              $("#results").show();
             } else if (genreInput === 'drama') {
+              $("#results").addClass(".bourne");
+              $("#results").show();
 
             } else if (genreInput === 'nolan') {
+              $("#results").addClass(".nolan");
+              $("#results").show();
 
             }
 
           } else if (interestsInput === 'dining') {
             if (genreInput === 'comedy') {
+              $("#results").addClass(".aziz");
+              $("#results").show();
 
             } else if (genreInput === 'drama') {
+              $("#results").addClass(".bourne");
+              $("#results").show();
 
             } else if (genreInput === 'nolan') {
-
+              $("#results").addClass(".nolan");
+              $("#results").show();
             }
 
 
           } else if (interestsInput === 'adventure') {
             if (genreInput === 'comedy') {
+              $("#results").addClass(".aziz");
+              $("#results").show();
 
             } else if (genreInput === 'drama') {
+              $("#results").addClass(".bourne");
+              $("#results").show();
 
             } else if (genreInput === 'nolan') {
-
+              $("#results").addClass(".nolan");
+              $("#results").show();
             }
             }
 
-          } else {
-            alert("please fill this out, DAMN IT")
+          } else if ( ageInput >=18 && hairInput === "black" ){
+        if (interestsInput === 'charity') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
+
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
+
+          }
+
+        } else if (interestsInput === 'dining') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
+
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
+
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
           }
 
 
-      } else if ( ageInput >=18 && hairInput === "black" ){
-          if (interestsInput === 'charity') {
+        } else if (interestsInput === 'adventure') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
 
-          } else if (interestsInput === 'dining') {
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
 
-          } else if (interestsInput === 'adventure') {
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
+          }
+          }
 
-          } else {
-            alert("please fill this out, DAMN IT")
+        } else if ( ageInput >=18 && hairInput === "red" ){
+        if (interestsInput === 'charity') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
+
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
+
+          }
+
+        } else if (interestsInput === 'dining') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
+
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
+
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
           }
 
 
-      } else if ( ageInput >=18 && hairInput === "red" ){
-          if (interestsInput === 'charity') {
+        } else if (interestsInput === 'adventure') {
+          if (genreInput === 'comedy') {
+            $("#results").addClass(".aziz");
+            $("#results").show();
 
-          } else if (interestsInput === 'dining') {
+          } else if (genreInput === 'drama') {
+            $("#results").addClass(".bourne");
+            $("#results").show();
 
-          } else if (interestsInput === 'adventure') {
-
-          } else {
-            alert("please fill this out, DAMN IT")
+          } else if (genreInput === 'nolan') {
+            $("#results").addClass(".nolan");
+            $("#results").show();
+          }
           }
 
 
@@ -81,8 +158,5 @@ $(document).ready(function() {
       alert("Please enter your age!")
     }
   });
-
-
-
 
 });

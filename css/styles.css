@@ -1,0 +1,35 @@
+#results {
+  display: none;
+}
+
+.nolan {
+
+  background-image: url("../img/batman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: auto;
+
+}
+
+
+.damon {
+
+  background-image: url("../img/bourne.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: auto;
+
+}
+
+
+.aziz {
+
+  background-image: url("../img/aziz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: auto;
+
+}
