@@ -24,7 +24,7 @@
 
 
         <div class="form-group">
-          <label for="hair">How old are you?</label>
+          <label for="hair">What color hair do you like?</label>
           <select id="hair" class="form-control">
             <option value="brown">Brown</option>
             <option value="blonde">Blonde</option>
@@ -36,43 +36,46 @@
 
         <div class="container">
           <label>What interests do you want to share?</label>
-          <div class="radio">
+          <div class="charity">
             <label>
-              <input type="radio" value="charity" checked>
+              <input type="radio" name="interests" value="charity">
               Charity
             </label>
           </div>
-          <div class="radio">
+          <div class="dining">
             <label>
-              <input type="radio" value="dining">
+              <input type="radio" name="interests" value="dining">
               Dining
             </label>
-          </div><div class="radio">
+          </div><div class="adventure">
             <label>
-              <input type="radio" value="adventure">
+              <input type="radio" name="interests" value="adventure">
               Adenture
             </label>
           </div>
         </div>
 
+        <br>
+
         <div class="form-group">
           <label for="genre">What kind of movie do you prefer?</label>
           <select id="genre" class="form-control">
-            <option value="comedy">Comedy</option>
-            <option value="drama">Drama</option>
-            <option value="action">Action</option>
-            <option value="documentary">Documentary</option>
+            <option value="comedy">Aziz Ansari Comedy Specials</option>
+            <option value="drama">Matt Damon Bourne Movies</option>
+            <option value="nolan">Christopher Nolan Movies</option>
           </select>
         </div>
 
 
-
         <div class="form-group">
-          <label for="age">Where do you want to settle down with YOUR celebrity?</label>
+          <label for="location">Where do you want to settle down with YOUR celebrity?</label>
           <input id="location" class="form-control" type="text">
         </div>
 
+        <submit id="butt" type="submit" class="btn btn-primary">ROLL THE DICE!</submit>
       </form>
+
+      <div container="results">
     </div>
   </body>
 </html>
